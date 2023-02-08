@@ -24,25 +24,30 @@ class FbApp extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text(
-          "Facebook",
+          "facebook",
           style:
-              TextStyle(color: Colors.blue[700], fontWeight: FontWeight.bold),
+              TextStyle(color: Colors.blue[900], fontWeight: FontWeight.w700),
         ),
         centerTitle: true,
         leading: IconButton(
           onPressed: () {},
-          icon: Icon(Icons.menu, color: Colors.blue[700]),
+          icon: Icon(Icons.menu, color: Colors.blue[900]),
         ),
         actions: [
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.search, color: Colors.blue[700]),
+            icon: Icon(Icons.message, color: Colors.blue[900]),
           ),
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.message, color: Colors.blue[700],),
+            icon: Icon(Icons.search, color: Colors.blue[900]),
           ),
         ],
+        elevation: 10,
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.add),
       ),
     );
   }
